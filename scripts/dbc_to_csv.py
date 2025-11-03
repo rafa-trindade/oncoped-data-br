@@ -3,7 +3,7 @@ import subprocess
 from dbfread import DBF
 import pandas as pd
 
-idade_maxima = 18
+idade_maxima = 19
 
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # raiz do projeto
 dbc_dir = os.path.join(base_dir, 'data', 'utils/datasus_dbc')
